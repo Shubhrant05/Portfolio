@@ -31,7 +31,6 @@ function Hero() {
             <p>
               I am Competitive Coder and an enthusiatic Web Developer and I seek to learn new tools and technologies .
             </p>
- 
           </HeroLeft>
           <HeroRight>
             <Image
