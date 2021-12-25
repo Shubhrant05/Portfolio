@@ -53,15 +53,15 @@ function SocialIcon() {
             <FaGithub />
           </a>
         </li>
-        <li className="item">
-          <a
-            href="https://www.instagram.com/shubhrant_1803/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </li>
+//         <li className="item">
+//           <a
+//             href="https://www.instagram.com/shubhrant_1803/"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <FaInstagram />
+//           </a>
+//         </li>
       </ul>
     </SocialDiv>
   );
