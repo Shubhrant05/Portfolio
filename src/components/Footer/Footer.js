@@ -24,7 +24,7 @@ function Footer() {
   return (
     <FooterSection>
       <div>
-        <h1>Hope You Liked My Portfolio Site!!</h1>
+        
       </div>
     </FooterSection>
   );
