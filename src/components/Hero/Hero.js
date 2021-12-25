@@ -11,7 +11,6 @@ import {
   ScrollDown,
   ScrollLink,
 } from "./HeroElements";
-let likes = "Like It?"
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
