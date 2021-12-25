@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import Myself from './mypic.jpeg'
-import Likes from './Likes'
 import {
   HeroContainer,
   HeroWrapper,
@@ -20,17 +19,6 @@ function Hero() {
     setIsOpen(!isOpen);
   };
 
-  const [isLiked , setIsLiked] = useState(false);
-
-  const like = () =>{
-    if(isLiked){
-      likes = "Thank you for liking"
-    }
-    else if(isLiked === false){
-      likes = "Like It?"
-    }
-    setIsLiked(!isLiked)
-  }
 
   return (
     <main>
@@ -44,7 +32,7 @@ function Hero() {
             <p>
               I am Competitive Coder and an enthusiatic Web Developer and I seek to learn new tools and technologies .
             </p>
-            <Likes liked = {like} liketext= {likes}/>
+ 
           </HeroLeft>
           <HeroRight>
             <Image
