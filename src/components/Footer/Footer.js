@@ -6,18 +6,18 @@ const FooterSection = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height:  200px;
+  height:  0px;
   position: relative;
   margin-top: 2rem;
 
-  h1 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+//   h1 {
+//     display:flex;
+//     justify-content:center;
+//     align-items:center;
     
-    color: crimson;
-    font-size:2rem;
-  }
+//     color: crimson;
+//     font-size:2rem;
+//   }
 
 `;
 function Footer() {
