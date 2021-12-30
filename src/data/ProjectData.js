@@ -2,6 +2,7 @@
 import ignite from '../components/Projects/ProjectCard/Ignite.png'
 import portfolio from '../components/Projects/ProjectCard/Screenshot 2021-12-24 203413.png'
 import certificate1 from '../components/Projects/ProjectCard/Certificate1 .png'
+import hashfinder from '../components/Projects/ProjectCard/Hash-finder.png'
 import node from '../components/Projects/ProjectCard/nodejs-icon.svg'
 import express from '../components/Projects/ProjectCard/expressjs.svg'
 export const ProjectList = [
@@ -18,6 +19,13 @@ export const ProjectList = [
     description: "I made my own personal portfolio website to showcase my skills and abilities",
     tech_stack: "Reactjs, CSS",
     github_url: "https://github.com/Shubhrant05/Portfolio"
+  },
+    {
+    img: hashfinder,
+    title: "Hash-Finder",
+    description: "I made Hash-finder a project that helps you analyze trends in different hashtags on twitter and you can also see few tweets related to hash tag",
+    tech_stack: "Reactjs, CSS , Bootstrap , Nivo charts",
+    github_url: "https://github.com/Shubhrant05/Hash-finder"
   },
   {
     img: certificate1,
